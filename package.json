@@ -1,0 +1,14 @@
+{
+  "name": "http_node_esp32",
+  "version": "1.0.0",
+  "description": "si",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
