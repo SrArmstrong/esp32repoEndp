@@ -16,7 +16,7 @@ app.post('/post', (req, res) => {
 
 app.put('/put', (req, res) => {
     req.on('data', (data) => {
-        console.log('Datos recibidos: ', data.toString());
+        console.log('Datos actualizados: ', data.toString());
     });
     res.send('Datos actualizados');
 });
