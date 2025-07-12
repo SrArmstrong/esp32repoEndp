@@ -22,9 +22,6 @@ jobs:
     - name: Instalar dependencias
       run: npm install
 
-    - name: Build project
-      run: npm run build
-
     - name: Ejecutar el servidor (opcional para test)
       run: |
         node server.js &
